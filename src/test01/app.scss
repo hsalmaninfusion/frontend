@@ -1,0 +1,51 @@
+
+
+.test01 {  
+  margin-top:10px;
+
+  .header
+  {
+    text-align: center;
+    margin-bottom: 10px;
+
+    .title
+    {
+        font-size: 19px;
+    }
+
+  }
+   .actions-main-container
+   {   
+       // float: left;
+        text-align: center;
+
+      .action-parent-container
+       {    
+           padding:8px;
+       
+       }
+      
+      .action-left-align
+       {             
+           float: none ;      
+       }
+     
+      
+        .btn-action 
+        {
+            height:100%;
+            border-color: green;
+            color: green;
+            white-space: normal;
+            padding: 6px;
+        }
+   }
+
+
+//we can use a function and pass parameter as padding other than specifying it explicitly
+   .mg-t-20
+   {
+     margin-top:20px ;   
+   }
+  
+}

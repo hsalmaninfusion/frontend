@@ -1,0 +1,23 @@
+
+<div class="test01 container">
+    <div class="row header">    
+        <p class="title"> Book an Appointment </p>
+        <h6> Our Investing Topics <h6>
+        <h5> Pick a topic, then we'll find a time and place<h5>      
+    </div>   
+    <div class="row"> 
+        <div class="actions-main-container"  equalize-height >
+            <div ng-repeat="action in data" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 action-parent-container"  ng-class="applyColumnClasses($index)" equalize-container-height>
+                <button type="button"  class="btn btn-default btn-block btn-action" >{{action.text | translate}}</button>
+            </div>
+        </div>
+    </div>
+       <div class="row mg-t-20"> 
+           <div class="text-center">  
+                <a href="./" class="text-success"> < Return to previous screen </a>
+          </div>  
+     </div> 
+</div> 
+
+        
+    
